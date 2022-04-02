@@ -1,0 +1,12 @@
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color:aqua;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color:#97EAE8;
+}
