@@ -1,5 +1,30 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+}
+
+hr {
+  border: 1px hsl(215, 32%, 27%) solid;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+/***CLASS SELECTORS***/
+
 .attribution {
-  font-size: 11px; text-align: center;
+  color: white;
+  font-size: 11px;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .attribution a {
@@ -7,6 +32,112 @@
   text-decoration: none;
 }
 
-.attribution a:hover {
+/* .attribution a:hover {
   color:#97EAE8;
+} */
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-color: white;
+  border-radius: 7px;
+  margin: 0 auto;
+  padding: 15px;
+  width: 250px;
+}
+
+.bottom {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.cardname {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.cardname:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.cardtext {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.dynamics {
+  position: relative;
+}
+
+.timediv {
+  margin-left: 50%;
+  position: absolute;
+  right: 0;
+  top:0;
+}
+
+.balance {
+  color: hsl(178, 100%, 50%);
+  display: inline;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  bottom: 4px;
+  left: 3px;
+}
+
+.time {
+  color: hsl(215, 51%, 70%);
+  display: inline;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+  bottom: 4px;
+}
+
+
+.equilibrium-img {
+  border-radius: 7px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+}
+
+
+.imgWrap {
+  position: relative;
+}
+
+.imgHover {
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 101px;
+}
+
+.imgWrap:hover .equilibrium-img {
+  opacity: 0.5;
+}
+
+.imgWrap:hover .imgHover {
+  opacity: 0.3;
+}
+
+.icon {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 25px;
+  margin: 10px 10px 0 0;
+  width: 25px;
+}
+
+.creator {
+  color: hsl(215, 51%, 70%);
+  display: inline;
+  position: relative;
+  bottom: 8px;
 }
